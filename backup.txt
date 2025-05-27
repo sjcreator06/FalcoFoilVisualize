@@ -1,0 +1,21 @@
+from airfoils import Airfoil
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+import torch
+
+
+zeros_array = np.zeros((2, 3)) # 2x3 array of zeros
+print(zeros_array)
+zeros_array[1,:]
+
+
+
+# Printing all the airfoils on 1 plot
+for i in range(len(x)):
+    plt.plot(x[i],y[i], label=str(foilNames[i]))
+
+
+plt.title("Plot of NACA 4-Digit Airfoil Coordinates")
+plt.legend()
+plt.show()
