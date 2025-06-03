@@ -5,6 +5,7 @@
 % Downloaded Foils have varying amounts of points. 
 % This script ensures that every foil has 35 x and y coordinate points. 
 
+%              © 2025 Falco Foil
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc; clear;
 
