@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%__________Foil Data Points Equalization__________
+%_________Foil Data Points Equalization__________%
 
 % Downloaded Foils have varying amounts of points. 
 % This script ensures that every foil has 35 x and y coordinate points. 
