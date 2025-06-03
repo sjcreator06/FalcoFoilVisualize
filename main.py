@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import tensorflow as tf
 import torch
+from scipy.interpolate import CubicSpline
 
 app = Flask(__name__, template_folder='templates')
 
@@ -20,7 +21,7 @@ x = []
 y = []
 
 # Creating Data Array from CSV File
-dataFile = open("Foils/airfoil_data.csv", "r")
+dataFile = open("Foil Data/airfoil_data_equalized.csv", "r")
 for line in dataFile:
     data.append(line.strip())
 
@@ -40,7 +41,7 @@ for i in range(len(x)):
         y[i][j] = float(y[i][j])
 
 # Creating an Array of Airfoil Names
-foilNamesFile = open("Foils/NACA_4-Digit_Foil_Names.txt", "r")
+foilNamesFile = open("Foil Data/NACA_4-Digit_Foil_Names.txt", "r")
 
 for foil in foilNamesFile:
     foilNames.append(foil)
@@ -175,8 +176,6 @@ foil, = axis.plot([], [], lw=2, color='blue')
 axis.set_xlim(-0.1, 1.1)
 axis.set_ylim(-0.25, 0.25)
 
-
-
 """x20 = np.array(x2)
 y20 = np.array(y2)
 
@@ -186,27 +185,19 @@ y3 = np.array(y3)
 x4 = np.array(x4)
 y4 = np.array(y4)"""
 
-plt.plot(x1[0],y1[0], label="Thin Foil")
-plt.plot(x3[1],y3[1], label="Curved Foil")
+plt.plot(x3[7],y3[7])
+plt.plot(x3[1],y3[1])
 
-min_len = min(len(x1), len(x2))
-x1 = x1[:min_len]
-x2 = x2[:min_len]
-y1 = y1[:min_len]
-y2 = y2[:min_len]
+x1 = np.array(x3[7])
+y1 = np.array(y3[7])
 
-x1 = np.array(x1[0])
-y1 = np.array(y1[0])
-
-x2 = np.array(x1[1])
-y2 = np.array(y1[1])
-
-
+x2 = np.array(x3[1])
+y2 = np.array(y3[1])
 
 def foilTransform(frame):
-    t = frame/100
+    t = frame/100  # Linear Interpolation Factor of 1 as Frames = 100 
     
-    x = (1 - t) * x1 + t * x2
+    x = (1 - t) * x1 + t * x2  
     y = (1 - t) * y1 + t * y2
     
     foil.set_data(x, y)
@@ -215,4 +206,8 @@ def foilTransform(frame):
 ani = animation.FuncAnimation(fig=figure, func = foilTransform, frames=100, interval=10)
 writergif = animation.PillowWriter(fps=30)
 ani.save('filename.gif',writer=writergif)
+
 plt.show()
+# It has to do with the array size dimensions 
+# A focus on Medium and Thick Foils
+# Cubic Spline Interpolation and change the AI interpolation to a cubic spline interpolation
