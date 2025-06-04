@@ -4,7 +4,7 @@
 <h2 align="center"> Metamorphic Airfoil Analysis </h2>
 
 <p align="center">
-Python-based Interactive GUI that runs**
+Python-based Interactive GUI that plots Airfoils and runs CFD Simulations
 </p>
 
 <p align="center">
