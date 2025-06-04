@@ -7,4 +7,4 @@ ________________________________________________________________________________
 
 
 
-<center  ### Air Foil Analysis /center>
+<h1 style="text-align: center;">Air Foil Analysis</h1>
