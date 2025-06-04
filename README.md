@@ -4,8 +4,8 @@
 <h2 align="center"> Metamorphic Airfoil Analysis </h2>
 
 <p align="center">
-**_Python-based Interactive GUI that runs _
-_Libraries Used: Matplotlib,Scipy,Numpy,Pyranda_**
+**Python-based Interactive GUI that runs**
+**Libraries Used: Matplotlib, Scipy, Numpy, Pyranda**
 </p>
 
 ## Features
