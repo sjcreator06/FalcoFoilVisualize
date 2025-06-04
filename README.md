@@ -3,7 +3,6 @@
 </p>
 <h2 align="center"> Metamorphic Airfoil Analysis </h2>
 
-------
 ## Features
 
 ### | Plots each Airfoil Category
