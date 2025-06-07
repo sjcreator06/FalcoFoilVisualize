@@ -11,6 +11,10 @@ Python-based Interactive GUI that plots Airfoils and runs CFD Simulations
 Libraries Used: Matplotlib, Scipy, Numpy, and Pyranda
 </p>
 
+
+## Installation
+
+
 ## Features
 
 ### | Plots each Airfoil Category
