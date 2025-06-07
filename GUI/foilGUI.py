@@ -11,8 +11,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.animation as animation
-# import foilTransformation as ft
-# import foilSweepPlots
+import foilTransformation as ft
 
 foilGUI = Tk()
 fig,ax = plt.subplots()
