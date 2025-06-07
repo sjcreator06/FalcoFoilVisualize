@@ -21,6 +21,10 @@ Libraries Used: Matplotlib, Scipy, Numpy, and Pyranda
 ![foilGUI_example](https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1)
 
 
+
+### | How to Use Falco Foil
+
+
 ### | Plots each Airfoil Category
 There are 4 different Categories: Thin, Curved, Medium, and Thick Foils
 
