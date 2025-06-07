@@ -13,6 +13,7 @@ Libraries Used: Matplotlib, Scipy, Numpy, and Pyranda
 
 
 ## Installation
+'git clone https://github.com/sjcreator06/FalcoFoil.git'
 
 
 ## Features
