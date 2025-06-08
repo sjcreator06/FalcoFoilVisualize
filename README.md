@@ -8,7 +8,7 @@ Python-based Interactive GUI that plots Airfoils and runs CFD Simulations
 </p>
 
 <p align="center">
-Libraries Used: Matplotlib, Scipy, Numpy, and Tkinter 
+External Libraries Used: Matplotlib, Numpy, and Tkinter 
 </p>
 
 <br></br>
