@@ -52,9 +52,9 @@ Note: Append the x row first, then the y row. This ensures that the odd rows are
 
 Plotting requires the x and y coordinate lists to be the same size. 
 
-**Step 2**: Input your data in the MATLAB file stored in Foil_Data/Data_Equalization.m to randomly remove values and create a new X and Y area of the same size. 
+**Step 2**: Input your data in the MATLAB file stored in Foil_Data/Data_Equalization.m to randomly remove values and create a new X and Y array of the same size. 
 
-**Step 3**: Append the new X and Y areas of equal size to the CSV file stored in Foil_Data/airfoil_data_equalized.csv.
+**Step 3**: Append the new X and Y arrays of equal size to the CSV file stored in Foil_Data/airfoil_data_equalized.csv.
 
 <br></br>
 
