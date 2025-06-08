@@ -28,6 +28,8 @@ In future releases, Computational Fluid Dynamics will be integrated to perform f
 
 <img src="https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1" alt="drawing" width="500"/>
 
+<br></br>
+
 **Step 1**: Run Foil_Analysis/foilGUI.py
 
 To perform metamorphic airfoil transformation, identify 2 foils in the same category from the list shown on the right and note their index number. 
@@ -38,8 +40,11 @@ Foil Category + Foil 1 Index + Foil 2 Index
 
 **Ex**: To transform thick foil 0021 to thick foil 2424, type this in the search field: thick + 1 + 4
 
+<br></br>
 
 ### | Adding Custom Foils
+
+<br></br>
 
 **Step 1**: To store the raw data, append new foil data from Airfoil Tools or custom data to the file stored in Foil_Data/airfoil_data.csv.
 
@@ -50,6 +55,8 @@ Plotting requires the x and y coordinate lists to be the same size.
 **Step 2**: Input your data in the MATLAB file stored in Foil_Data/Data_Equalization.m to randomly remove values and create a new X and Y area of the same size. 
 
 **Step 3**: Append the new X and Y areas of equal size to the CSV file stored in Foil_Data/airfoil_data_equalized.csv.
+
+<br></br>
 
 ## Features
 ### | Plots each Airfoil Category
