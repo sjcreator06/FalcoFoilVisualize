@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.animation as animation
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
-import foilTransformation as ft
+import foilTransformations as ft
 import foilCurves as fc
 
 foilGUI = Tk()
