@@ -24,6 +24,8 @@ Four categories of airfoils can be identified in the NACA 4-Digit airfoil group:
 
 In future releases, Computational Fluid Dynamics will be integrated to perform fluid analysis on metamorphic foils as they change shape and more complex transformations like thin and curved airfoils. 
 
+<br></br>
+
 ### | Using the GUI
 
 <img src="https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1" alt="drawing" width="500"/>
