@@ -70,5 +70,7 @@ There are 4 different Categories: Thin, Curved, Medium, and Thick Foils
 ### | Animation Transformation
 **Example Output:**
 
+Note: When analysis files are run, the animation plots are exported as a GIF.
+
 <img width="400" src="https://github.com/user-attachments/assets/001941b6-10c3-49cc-b071-d799b161660b" alt="Foil Expansion" />
 <img width="400" src="https://github.com/user-attachments/assets/912ab2af-4c28-4757-ab9a-105c2339e228" alt="Foil Contraction" />
