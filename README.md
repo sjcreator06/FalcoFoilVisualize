@@ -48,14 +48,14 @@ To perform metamorphic airfoil transformation, identify 2 foils in the same cate
 Foil Category + Foil 1 Index + Foil 2 Index
 ```
 
-**Step 3**: To view airfoil plots for each category, click the `Category Plot` button.
-
 **Example**:  
 To transform thick foil `0021` to thick foil `2424`, type this in the search field:
 
 ```
 thick + 1 + 4
 ```
+
+**Step 3**: To view airfoil plots for each category, click the `Category Plot` button.
 
 ---
 
