@@ -22,7 +22,7 @@ git clone https://github.com/sjcreator06/FalcoFoil.git
 
 ---
 
-## 📘 About Falco Foil Visualize
+## About Falco Foil Visualize
 
 This library is used as part of a larger research project called Falco Foil to develop a metamorphic wing. A metamorphic airfoil is an airfoil that can change its shape. The library uses NACA 4-digit foils acquired from [Airfoil Tools](http://airfoiltools.com/search/index?m%5Bgrp%5D=naca4d&m%5Bsort%5D=1).
 
@@ -32,7 +32,7 @@ In future releases, Computational Fluid Dynamics will be integrated to perform f
 
 ---
 
-## 🖥️ Using the GUI
+## Using the GUI
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1" alt="drawing" width="500" />
@@ -59,7 +59,7 @@ thick + 1 + 4
 
 ---
 
-## 🧩 Adding Custom Foils
+## Adding Custom Foils
 
 **Step 1**: To store the raw data, append new foil data from Airfoil Tools or custom data to the file stored in `Foil_Data/airfoil_data.csv`.
 
@@ -72,9 +72,9 @@ thick + 1 + 4
 
 ---
 
-## ✨ Features
+## Features
 
-### 📊 Plots Each Airfoil Category
+### Plots Each Airfoil Category
 
 There are 4 different categories: **Thin**, **Curved**, **Medium**, and **Thick** foils.
 
@@ -87,7 +87,7 @@ There are 4 different categories: **Thin**, **Curved**, **Medium**, and **Thick*
 
 ---
 
-### 🔁 Animation Transformation
+### Animation Transformation
 
 **Example Output:**
 
