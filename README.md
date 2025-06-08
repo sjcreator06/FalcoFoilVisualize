@@ -4,7 +4,7 @@
 <h2 align="center"> Metamorphic Airfoil Analysis </h2>
 
 <p align="center">
-Python-based Interactive GUI that plots Airfoils and runs CFD Simulations
+Python-based Interactive GUI that visualizes the transformation movement of a metamorphic airfoil.
 </p>
 
 <p align="center">
@@ -20,9 +20,8 @@ git clone https://github.com/sjcreator06/FalcoFoil.git
 <br></br>
 
 ## About Falco Foil
-This library aims to visualize the transformation movement of a metamorphic airfoil. A metamorphic airfoil is an airfoil that can change its shape. The library uses NACA 4-digit foils aquired from [Airfoil Tools]([url](http://airfoiltools.com/search/index?m%5Bgrp%5D=naca4d&m%5Bsort%5D=1)). The library can also be easily adapted to add more foils from different foil categories. 
 
-Four categories of airfoils can be identified in the NACA 4-Digit airfoil group: thin, curved, medium, and thick foils. The primary focus of this library is on medium and thick foils. This is because the library is used as part of a larger research project to develop a metamorphic wing that has the properties of a medium and thick airfoil. 
+This library is used as part of a larger research project called Falco Foil to develop a metamorphic wing. A metamorphic airfoil is an airfoil that can change its shape. The library uses NACA 4-digit foils aquired from [Airfoil Tools]([url](http://airfoiltools.com/search/index?m%5Bgrp%5D=naca4d&m%5Bsort%5D=1)). Four categories of airfoils can be identified in the NACA 4-Digit airfoil group: thin, curved, medium, and thick foils. The primary focus of this library is on medium and thick foils, as the metamorphic wing will have properties of a medium and thick airfoil. The library can also be easily adapted to add more foils from different foil categories.
 
 In future releases, Computational Fluid Dynamics will be integrated to perform fluid analysis on metamorphic foils as they change shape and more complex transformations like thin and curved airfoils. 
 
