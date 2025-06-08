@@ -17,15 +17,14 @@ Libraries Used: Matplotlib, Scipy, Numpy, and Pyranda
 git clone https://github.com/sjcreator06/FalcoFoil.git
 ```
 
-
 ## Features
-
-### | GUI
-![foilGUI_example](https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1)
 
 
 
 ### | How to Use Falco Foil
+## | GUI
+<img src="https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1" alt="drawing" width="500"/>
+
 
 
 ### | Plots each Airfoil Category
