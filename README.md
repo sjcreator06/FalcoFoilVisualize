@@ -30,7 +30,7 @@ In future releases, Computational Fluid Dynamics will be integrated to perform f
 
 ## Using the GUI
 
-<img src="https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1" alt="drawing" width="500"/>
+<p align="center"> <img src="https://github.com/user-attachments/assets/48af30e7-fb43-4c1e-bd81-0faa300344f1" alt="drawing" width="500" /> </p>
 
 **Step 1**: Run Foil_Analysis/foilGUI.py
 
